@@ -1,5 +1,5 @@
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/plane%20vpn.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/hojioM/QuantumultX/main/SubscribeRecovery/SubscribeRecovery.js
 hostname = buy.itunes.apple.com
 
 
