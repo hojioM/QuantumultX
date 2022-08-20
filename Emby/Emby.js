@@ -1,5 +1,6 @@
 [rewrite_local]
 ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/hojioM/QuantumultX/main/Emby/Emby.js
+[mitm] 
 hostname = mb3admin.com
 
 var url = $request.url;
