@@ -1,5 +1,6 @@
 [rewrite_local]
-^https:\/\/service\.ilovepdf\.com\/v1\/user$ url response-body https://raw.githubusercontent.com/hojioM/QuantumultX/main/iLovePDF/iLovePDF.js
+^https:\/\/service\.ilovepdf\.com\/v1\/user$ url script-response-body https://raw.githubusercontent.com/hojioM/QuantumultX/main/iLovePDF/iLovePDF.js
+[mitm] 
 hostname = service.ilovepdf.com
 
 
