@@ -1,4 +1,5 @@
-当前版本:10.2.8
+//当前版本:10.2.8
+//https://github.com/nameking77/Qx/blob/main/rewrite/kwyy.js
 [rewrite_local]
 # 完美解锁酷我音乐
 ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/hojioM/QuantumultX/main/kwyy/kwyy.js
