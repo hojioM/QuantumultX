@@ -5,7 +5,7 @@ hostname=baimiao.uzero.cn
 
 let obj = JSON.parse($response.body);
 
-obj.value.vip = {
+obj.vip = {
     "id": 999999,
     "userId": 9999999,
     "levelId": 2,
