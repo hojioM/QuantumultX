@@ -1,8 +1,9 @@
+/*
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/hojioM/QuantumultX/main/SubscribeRecovery/SubscribeRecovery.js
 [mitm] 
 hostname = buy.itunes.apple.com
-
+*/
 var objc = JSON.parse($response.body);
 objc = {
     "status": 0,
