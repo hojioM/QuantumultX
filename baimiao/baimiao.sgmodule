@@ -1,0 +1,8 @@
+#!name=白描
+#!desc=解锁黄金会员
+
+[Script]
+解锁黄金会员 = type=http-response,pattern=^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/hojioM/QuantumultX/main/baimiao/baimiao.js
+
+[MITM]
+hostname = %APPEND% baimiao.uzero.cn
